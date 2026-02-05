@@ -10,9 +10,12 @@
 
 <body class="bg-gray-100">
     <!-- Navigatie -->
-     <?php
-  include 'menu.php'
-  ?>
+   <nav class="bg-gray-800 p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-white text-2xl font-bold">Pokédex</div>
+            <?php include 'menu.php'; ?>
+        </div>
+    </nav>
 
     <!-- Main Content -->
     <div class="w-full">
