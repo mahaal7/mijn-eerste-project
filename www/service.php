@@ -147,6 +147,8 @@
                     </ul>
                 </div>
                 <div>
+                      <?php include 'socials.php'; ?>
+                      
                     <h4 class="text-xl font-bold mb-4">Contact</h4>
                     <p class="text-gray-400">Email: info@pokemon-verzameling.nl</p>
                     <p class="text-gray-400">Tel: +31 (0)6 12345678</p>

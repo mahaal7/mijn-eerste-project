@@ -10,7 +10,6 @@
 
 <body class="bg-gray-100">
     <!-- Navigatie -->
-    <nav class="bg-gray-800 p-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="text-white text-2xl font-bold">Pokédex</div>
             <?php include 'menu.php'; ?>
@@ -192,6 +191,9 @@
                     </ul>
                 </div>
                 <div>
+
+                  <?php include 'socials.php'; ?>
+                  
                     <h4 class="text-xl font-bold mb-4">Contact</h4>
                     <p class="text-gray-400">Email: info@pokemon-verzameling.nl</p>
                     <p class="text-gray-400">Tel: +31 (0)6 12345678</p>
